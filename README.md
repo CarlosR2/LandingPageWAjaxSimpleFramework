@@ -6,19 +6,22 @@ Landing Page w AJAX Simple Framework (PHP+MySQL+JS+AJAX)
 A skeleton for a single Landing Page that performs AJAX calls through a local API. It can be easily extended
 
 index.php
-  --> Loads the view
+  --> Load data and then the view
 
 model.php
-  --> include functions to interact with database
+  --> Here you can include functions to interact with database
   
 view.php
-  --> the html code
+  --> The actual html code
   
 api.php
-  --> calls to the api from JS
+  --> Here you can include calls to the api. Through the index.js you'll call these functions and get the results.
   
 index.js
   --> Simple JS framework to interact with the api. You have the calls to interact with api.php
   
 functions.php
   --> Auxiliar functions
+  
+libraries
+  --> You can include here libraries such as mailer
