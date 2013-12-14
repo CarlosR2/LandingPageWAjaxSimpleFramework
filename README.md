@@ -3,7 +3,7 @@ LandingPageWAjaxSimpleFramework
 
 Landing Page w AJAX Simple Framework (PHP+MySQL+JS+AJAX)
 
-A skeleton for a single Page
+A skeleton for a single Landing Page that performs AJAX calls through a local API. It can be easily extended
 
 index.php
   --> Loads the view
