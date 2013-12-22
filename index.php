@@ -8,7 +8,8 @@ include('model.php');
 /* DO STUFF*/
 
 $model = new model();
-$foo_data = $model->foo();
+$var = '';
+$foo_data = $model->foo($var);
 
 include('view.php');
 ?>
